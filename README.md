@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v1.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">edi.dev</a>
+  <a href="https://edi-portfolio.web.app/" target="_blank">edi.dev</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/edireadmeimage.png" />
