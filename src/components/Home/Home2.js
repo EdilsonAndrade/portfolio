@@ -64,7 +64,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/edilsonandrade"
                   target="_blank"
                   rel="noreferrer"
                   className="flex justify-center bg-white p-3 rounded-full"
@@ -75,8 +75,7 @@ function Home2() {
 
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
+                  href="https://www.linkedin.com/in/edilson-augusto-de-andrade-3727759/"
                   rel="noreferrer"
                   className="flex justify-center bg-white p-3 rounded-full"
                 >
