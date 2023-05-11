@@ -4,26 +4,30 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiVercel,
+  SiFirebase,
+  SiInsomnia,
 } from "react-icons/si";
 
 function Toolstack() {
   return (
-    <div className="justify-center text-center tech_stack">
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
+    <div className="justify-center text-center tools">
+      <div className="stacks" title="Linux Wsl2">
         <SiLinux size={90} />
       </div>
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
+      <div className="stacks" title="Visual Studio Code">
         <SiVisualstudiocode size={90} />
       </div>
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
+      <div className="stacks" title="Postman">
         <SiPostman size={90} />
       </div>
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
-        <SiVercel size={90} />
+      <div className="stacks" title="Firebase">
+        <SiFirebase size={90} />
       </div>
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
+      <div className="stacks" title="Heroku">
         <SiHeroku size={90} />
+      </div>
+      <div className="stacks" title="Insomnia">
+        <SiInsomnia size={90} />
       </div>
     </div>
   );
