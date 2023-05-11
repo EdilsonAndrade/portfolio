@@ -13,7 +13,7 @@ function Footer() {
           <h3>
             Developed by Edi, thanks for the initial Develop and Design by
             <a
-              href="https://github.com/soumyajit4419"
+              href="https://github.com/edilsonandrade"
               className="no-underline text-white ml-1"
               alt=""
               target="_blank"
