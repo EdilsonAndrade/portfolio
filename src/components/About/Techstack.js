@@ -12,37 +12,37 @@ import { SiDocker, SiAmazonaws, SiMysql, SiNextdotjs } from "react-icons/si";
 function Techstack() {
   return (
     <div className="justify-center text-center tech_stack">
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center hover:p-11">
+      <div className="stacks" title="React">
         <DiReact size={90} />
       </div>
 
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
+      <div className="stacks" title="Javascript">
         <DiJavascript1 size={90} />
       </div>
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
+      <div className="stacks" title="NodeJs">
         <DiNodejs size={90} />
       </div>
 
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
+      <div className="stacks" title="Next Js">
         <SiNextdotjs size={90} />
       </div>
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
+      <div className="stacks" title="AWS">
         <SiAmazonaws size={90} />
       </div>
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
+      <div className="stacks" title="Docker">
         <SiDocker size={90} />
       </div>
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
+      <div className="stacks" title="Git">
         <DiGit size={90} />
       </div>
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
+      <div className="stacks" title="MySql">
         <SiMysql size={90} />
       </div>
 
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
+      <div className="stacks" title="MongoDB">
         <DiMongodb size={90} />
       </div>
-      <div className="rounded-md border-2 border-purple-900 w-full p-4 flex justify-center items-center">
+      <div className="stacks" title="Csharp">
         <TbBrandCSharp size={90} />
       </div>
     </div>
