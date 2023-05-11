@@ -17,7 +17,7 @@ function Github() {
         blockMargin={5}
         color="#c084f5"
         fontSize={16}
-        year={2020}
+        year={2023}
       />
     </Row>
   );
