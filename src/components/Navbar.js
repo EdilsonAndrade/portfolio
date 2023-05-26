@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser, AiFillLinkedin } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -80,6 +80,19 @@ function NavBar() {
               >
                 <div className="flex mobile:justify-start tablet:justify-center items-center pt-3">
                   <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                </div>
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="https://www.linkedin.com/in/edilson-augusto-de-andrade-3727759/"
+                target="_blank"
+                onClick={() => updateExpanded(false)}
+              >
+                <div className="flex mobile:justify-start tablet:justify-center items-center pt-3">
+                  <AiFillLinkedin style={{ marginBottom: "2px" }} size={25} />{" "}
+                  Linkedin
                 </div>
               </Nav.Link>
             </Nav.Item>
