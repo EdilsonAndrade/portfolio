@@ -11,7 +11,7 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>
-            Developed by Edi, thanks for the initial Develop and Design by
+            Developed by Edi, thanks for the initial Design by
             <a
               href="https://github.com/edilsonandrade"
               className="no-underline text-white ml-1"
@@ -19,7 +19,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              SoumyAjit Behera
+              SB
             </a>
           </h3>
         </Col>
